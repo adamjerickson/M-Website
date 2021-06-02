@@ -5,21 +5,31 @@ body {
   padding: 0;
 }
 
+a {  
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-decoration: none;
+}
+
 .main {
-  background-color: black;
   padding: 0;
-  margin: 0;}
+  margin: 0;
+}
 
 .grid-container {
   display: grid;
-  grid-template-columns: 500px auto 100px;
+  grid-template-columns: 1fr 9fr 1fr;
   grid-gap: 5px;
-  background-color: #2196F3;
+  
   padding: 15px;
-  max-width: 1200px; /* Adjust this to whatever seems right. Just also adjust the media query below to the same value. */
+  max-width: 2000px; /* Adjust this to whatever seems right. Just also adjust the media query below to the same value. */
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 2000px) {
   .grid-container {
     margin-left: auto;
     margin-right: auto;
@@ -49,20 +59,21 @@ body {
   border: none;
 }
 
+
+
 /*Menu Horizontal*/
-.item2 li, a {
-  
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
-  text-decoration: none;
+
+.item2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 18%;
+  padding-right: 18%;
+}
+
+.item2 li {
   padding: 9px;
   display: block;
-  width: 160px;
-  float: left;
   border: none;
   text-align: center;
 }
@@ -77,6 +88,7 @@ body {
   line-height: auto;
   color: #000000;
   text-decoration: none;
+  padding: 9px;
 }
 
 
@@ -85,19 +97,18 @@ body {
   display: block;
   width: 120px;
   float: right;
-  margin-left: 20px;
+  margin-left: 0px;
   border: none;
 }
 
 
 /*Let's get*/
-.item4 {
-  grid-column: 1 / 1;
-  grid-row: 2 ;
+.headline {
+  
 }
 
-  .item4 h1 {
-  position: relative;
+.headline h1 {
+  position: absolute;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -105,8 +116,8 @@ body {
   line-height: 10px;
   width: 660px;
   height: 196px;
-  left: -32px;
-  top: -10px; 
+  top: 120px;
+  left: -10px;
 }
 
 
@@ -129,6 +140,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  padding-top: 192px;
+  padding-right: 46px;
 }
 
 .item5 p {
@@ -140,7 +153,6 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: left;
-  padding-top: 9%;
   z-index: 1;
 }
 
@@ -150,22 +162,24 @@ body {
 .item6 {
   grid-column: 1 / 3;
   grid-row: 2;
-  padding-top: 200px;
-  padding-left: 10%; /* You want this to match whatever margin you have on the "mollie." home button/text link at the top. They are supposed to line up. I would consider adding a column to the grid just to do that spacing so you have an easy reference point. */
+  margin-top:324px;
+  margin-left: 28px;
 }
 
 .item6 img { 
-  display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  /* Only applies at small screen size */
 }
 
 /* paragraph abput Mollie*/
 .item7 {
-  grid-column: 1 / -1;
+  grid-column: 1 / 3;
   grid-row: 3;
   padding-left: 10%;
-  padding-right: 10%;
 
 }
 .item7 p {
@@ -174,7 +188,6 @@ body {
   font-weight: 500;
   font-size: 58px;
   line-height: 69px;
-
 } 
 
 
