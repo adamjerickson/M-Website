@@ -175,7 +175,7 @@ a {
   /* Only applies at small screen size */
 }
 
-/* paragraph abput Mollie*/
+/* paragraph about Mollie*/
 .item7 {
   grid-column: 1 / 3;
   grid-row: 3;
@@ -190,6 +190,18 @@ a {
   line-height: 69px;
 } 
 
+
+/*things i believe*/
+.item8 {
+  grid-column: 2 / -1;
+  grid-row: 4;
+  padding-right: 0;
+}
+
+.item8 h2 {
+  text-align: right;
+  
+}
 
 
 
