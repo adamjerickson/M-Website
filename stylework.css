@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+a {  
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-decoration: none;
+}
+
+h4 {
+color: #B3B3B3;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px; 
+}
+
+.main {
+    grid-template-columns: 40px 50px  100px;
+    grid-template-rows: 25% 100px auto;
+}
+
+.subgrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-row: auto;
+  gap: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  .grid-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+/*Mollie. */
+.item1 a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  text-decoration: none;
+}
+.item1 li {
+  display: block;
+  min-width: 120px;
+  float: center;
+  margin-left: 28px;
+  border: none;
+  position: relative;
+  top: 63px;
+}
+
+
+
+/*Menu Horizontal*/
+
+.item2 {
+  grid-column: 2 / span 4;
+  grid-row: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 14.5%;
+  padding-right: 14.5%;
+}
+
+.item2 li {
+  padding: 9px;
+  display: block;
+  border: none;
+  text-align: center;
+}
+
+/*say hi*/
+.item3 {
+  grid-column: 3 / span 4;
+  grid-row: 1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: auto;
+  color: #000000;
+  text-decoration: none;
+  padding: 9px;
+}
+
+
+/*"say hi" formating*/
+.item3 li {
+  position: relative;
+  display: block;
+  width: 120px;
+  float: right;
+  margin-left: 0px;
+  border: none;
+  top: -250px;
+}
+
+/*Vertical Menu Bar*/
+.item4 {
+    grid-column: 1 / span 2;
+    grid-row: 2 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+.item4 a {  
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 108px;
+    line-height: 69.9%;
+    color: #000000;
+    text-decoration: none;
+
+  }
+  
+
+
+
+/*IMAGE 1 */
+.image1 {
+  grid-column: 2 / 2;
+  grid-row: 2;
+  margin-top:301px;
+  margin-left: 439px;
+}
+.image1 img { 
+  width: 317px;
+  height: auto;
+  left: 301px;
+  top: 439px;
+
+}
+  /*IMAGE 2 */
+.image2 {
+    grid-column: 2 /  4;
+    grid-row: 3;
+    margin-top:588px;
+    margin-left: 516px;
+  }
+  .image2 img { 
+    width: 100%;
+    height: auto;
+  }
+
+  /*IMAGE 3 */
+.image3 {
+    grid-column: 2 / span 4;
+    grid-row: 2;
+    margin-top:315px;
+    margin-left: -144px;
+  }
+  .image3 img { 
+    width: 100%;
+    height: auto;
+  }
+
+  /*IMAGE 4 */
+.image4 {
+    grid-column: 2 / span 4;
+    grid-row: 2;
+    margin-top:315px;
+    margin-left: -144px;
+  }
+  .image4 img { 
+    width: 100%;
+    height: auto;
+  }
+
+  /*IMAGE 5 */
+.image5 {
+    grid-column: 2 / span 4;
+    grid-row: 2;
+    margin-top:315px;
+    margin-left: -144px;
+  }
+  .image5 img { 
+    width: 100%;
+    height: auto;
+  }
+
+  /*IMAGE 6 */
+.image6 {
+    grid-column: 2 / span 4;
+    grid-row: 2;
+    margin-top:315px;
+    margin-left: -144px;
+  }
+  .image6 img { 
+    width: 100%;
+    height: auto;
+  }
+
+  /*IMAGE 7 */
+.image7 {
+    grid-column: 2 / span 4;
+    grid-row: 2;
+    margin-top:315px;
+    margin-left: -144px;
+  }
+  .image7 img { 
+    width: 100%;
+    height: auto;
+  }
+
+  /*IMAGE 8 */
+.image8 {
+    grid-column: 2 / span 4;
+    grid-row: 2;
+    margin-top:315px;
+    margin-left: -144px;
+  }
+  .image8 img { 
+    width: 100%;
+    height: auto;
+  }
+
+  /*IMAGE 9 */
+.image9 {
+    grid-column: 2 / span 4;
+    grid-row: 2;
+    margin-top:315px;
+    margin-left: -144px;
+  }
+  .image9 img { 
+    width: 100%;
+    height: auto;
+  }
+
+  /*IMAGE 10 */
+.image10 {
+    grid-column: 2 / span 4;
+    grid-row: 2;
+    margin-top:315px;
+    margin-left: -144px;
+  }
+  .image10 img { 
+    width: 100%;
+    height: auto;
+  }
+
+
+  
+  
