@@ -1,25 +1,83 @@
+import styled from 'styled-components'
+
+const Nav = styled.div`
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 53px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-column-templates: 150px auto 120px;
+  }
+`
+
+const NavHome = styled.div`
+  grid-column: 1;
+  a {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  li {
+    display: block;
+    min-width: 120px;
+    float: center;
+    border: none;
+    position: relative;
+    top: 63px;
+`
+
+const NavMain = styled.div`
+  grid-column: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 18%;
+  padding-right: 18%;
+
+  li {
+    padding: 9px;
+    display: block;
+    border: none;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 450px) {
+    /* TODO: remove this and replace with actual change to hamburger or similar. */
+    display: none;
+  }
+`
+
+const NavContact = styled.div`
+  grid-column: 3;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: auto;
+  padding: 9px;
+  text-align: right;
+`
+
 function Header() {
   return (
-    <div class="subgrid">
-      {/* Main menu "mollie." */}
-      <div class="item1">
-          <li><a href="index.html">mollie.</a></li>  
-      </div>
+    <Nav>
+      <NavHome>
+        <a href="index.html">mollie.</a>
+      </NavHome>
 
-      {/* Navigation bar */}
-      <div class="item2">
-          <li><a href="index.html">home</a></li>
-          <li><a href="work.html">work</a></li>
-          <li><a href="speaking.html">speaking</a></li>
-          <li><a href="resume.html">resume</a></li>
-          <li><a href="blog.html">blog</a></li> 
-      </div>
+      <NavMain>
+        <li><a href="index.html">home</a></li>
+        <li><a href="work.html">work</a></li>
+        <li><a href="speaking.html">speaking</a></li>
+        <li><a href="resume.html">resume</a></li>
+        <li><a href="blog.html">blog</a></li> 
+      </NavMain>
 
-      {/* Main menu "say hi." */}
-      <div class="item3">
-          <li><a href="log.html">say hi.</a></li>
-      </div> 
-    </div>
+      <NavContact>
+        <a href="log.html">say hi.</a>
+      </NavContact> 
+    </Nav>
   )
 }
 
