@@ -4,6 +4,7 @@ import Work01Image from './work01image.png';
 const WorkMain = styled.div`
   display: grid;
   grid-template-columns: auto 400px;
+  column-gap: 1vw;
 `
 
 const WorkCenter = styled.div`
@@ -32,6 +33,10 @@ const Work01Line3 = styled.div`
   line-height:67.1px;
 `
 const WorkImage = styled.div`
+  img {
+    min-width: 100%;
+    max-width: 100%;
+  }
 `
 
 const WorkDescription = styled.div`
