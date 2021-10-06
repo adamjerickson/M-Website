@@ -20,3 +20,7 @@ p {
   line-height: 29px;
 }
 
+li > a.selectedNav {
+  border-bottom: 3px solid black;
+}
+

@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Nav = styled.div`
@@ -38,10 +39,13 @@ const NavMain = styled.div`
   padding-right: 18%;
 
   li {
-    padding: 9px;
     display: block;
     border: none;
     text-align: center;
+
+    a {
+      padding: 9px;
+    }
   }
 
   @media screen and (max-width: 450px) {
@@ -67,8 +71,8 @@ function Header() {
       </NavHome>
 
       <NavMain>
-        <li><a href="index.html">home</a></li>
-        <li><a href="work.html">work</a></li>
+        <li><NavLink activeClassName="selectedNav" to="/" exact>home</NavLink></li>
+        <li><NavLink activeClassName="selectedNav" to="/work" exact>work</NavLink></li>
         <li><a href="speaking.html">speaking</a></li>
         <li><a href="resume.html">resume</a></li>
         <li><a href="blog.html">blog</a></li> 
