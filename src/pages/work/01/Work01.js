@@ -58,7 +58,7 @@ const Work01 = () => {
         <WorkTitle>
           <span>a new project</span> <Work01Line2 className="larger">management</Work01Line2> <Work01Line3>tool</Work01Line3>
         </WorkTitle>
-        <WorkImage><img src={Work01Image} /></WorkImage>
+        <WorkImage><img alt="screenshot" src={Work01Image} /></WorkImage>
       </WorkCenter>
       <WorkDescription>
         <h3>DMSi Contractor Project Management for Installed Sales</h3>
