@@ -25,6 +25,7 @@ const WorkNav = styled.ul`
     font-size: 41px;
     font-weight: 500;
     color: #b7b7b7;
+    margin-bottom: 39px;
   }
 
   li.selected {
