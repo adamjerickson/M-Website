@@ -28,7 +28,13 @@ const ContactForm = styled.form`
   display: grid;
   grid-template-columns: 50% 50%;
   column-gap: 10px;
+  row-gap: 20px;
   margin-right: 5vw;
+  align-content: start;
+
+  p {
+    margin-top: 0;
+  }
 `
 const ContactImage = styled.div`
   img {
@@ -110,6 +116,7 @@ const Contact = () => {
         <ContactIntro>let's get to know one another</ContactIntro>
         <FormContainer>
           <ContactForm name="contact" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
               <FormLabel>name
                 <NameInput type="text" name="name" placeholder="name"/>
               </FormLabel>
