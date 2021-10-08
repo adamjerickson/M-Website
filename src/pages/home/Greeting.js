@@ -50,6 +50,12 @@ const LittleBox = styled.div`
   text-align: left;
   z-index: 1;
 
+  @media screen and (min-width: 1252px) {
+    float: left;
+    margin-left: 1029px;
+    margin-top: 25px;
+  }
+
   @media screen and (max-width: 950px) {
     display: none;
   }
