@@ -67,7 +67,7 @@ function Header() {
   return (
     <Nav>
       <NavHome>
-        <a href="index.html">mollie.</a>
+        <a href="/index.html">mollie.</a>
       </NavHome>
 
       <NavMain>
