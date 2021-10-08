@@ -43,7 +43,7 @@ const LittleBox = styled.div`
   float: right;
   margin-top: 50px;
   margin-right: 5vw;
-  width: 170px;
+  width: 200px;
   height: 63px;
   font-size: 18px;
   line-height: 21px;
