@@ -15,7 +15,10 @@ const FooterWrapper = styled.div`
   img {
     width: 46px;
     margin-right: 20px;
+  }
 
+  a:last-child img {
+    margin-right: 0;
   }
 `
 

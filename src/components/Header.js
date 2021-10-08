@@ -59,8 +59,11 @@ const NavContact = styled.div`
   font-weight: 600;
   font-size: 18px;
   line-height: auto;
-  padding: 9px;
   text-align: right;
+
+  a {
+    padding-bottom: 9px;
+  }
 `
 
 function Header() {
@@ -72,14 +75,14 @@ function Header() {
 
       <NavMain>
         <li><NavLink activeClassName="selectedNav" to="/" exact>home</NavLink></li>
-        <li><NavLink activeClassName="selectedNav" to="/work/01" exact>work</NavLink></li>
-        <li><a href="speaking.html">speaking</a></li>
+        <li><NavLink activeClassName="selectedNav" to="/work/01" >work</NavLink></li>
+        {/* <li><a href="speaking.html">speaking</a></li>
         <li><a href="resume.html">resume</a></li>
-        <li><a href="blog.html">blog</a></li> 
+        <li><a href="blog.html">blog</a></li>  */}
       </NavMain>
 
       <NavContact>
-        <a href="log.html">say hi.</a>
+        <NavLink activeClassName="selectedNav" to="/contact" exact>say hi.</NavLink>
       </NavContact> 
     </Nav>
   )
