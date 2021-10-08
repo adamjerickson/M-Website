@@ -72,7 +72,7 @@ function Header() {
 
       <NavMain>
         <li><NavLink activeClassName="selectedNav" to="/" exact>home</NavLink></li>
-        <li><NavLink activeClassName="selectedNav" to="/work" exact>work</NavLink></li>
+        <li><NavLink activeClassName="selectedNav" to="/work/01" exact>work</NavLink></li>
         <li><a href="speaking.html">speaking</a></li>
         <li><a href="resume.html">resume</a></li>
         <li><a href="blog.html">blog</a></li> 
