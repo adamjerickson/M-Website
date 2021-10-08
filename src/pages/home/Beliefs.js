@@ -42,11 +42,22 @@ const BeliefsGrid = styled.div`
   margin-left: 8vw;
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(308px, 1fr));
+  grid-template-columns: 308px 308px 308px;
   column-gap: 68px;
   row-gap: 86px;
 
-  @media screen and (max-width: 925px) {
+  @media screen and (min-width: 2430px) {
+    grid-template-columns: 308px 308px 308px 308px 308px 308px;
+    row-gap: 43px;
+  }
+
+  @media screen and (max-width: 1226px) {
+    grid-template-columns: 308px 308px;
+    row-gap: 43px;
+  }
+
+  @media screen and (max-width: 737px) {
+    grid-template-columns: 275px;
     row-gap: 43px;
   }
 
@@ -54,10 +65,12 @@ const BeliefsGrid = styled.div`
 
 function Beliefs() {
   return (
-    <BeliefsWrapper>
+    <div>
       <BeliefsHeader>
         <h2>things i believe</h2>
       </BeliefsHeader>
+      <BeliefsWrapper>
+      
 
       <BeliefsGrid>
         <Belief
@@ -100,7 +113,7 @@ function Beliefs() {
 
         <Belief
           classId="item13"
-          title="work should be structure and clean."
+          title={`work should be clean.`}
           description="Design should not contain information 
                       which is irrelevant or rarely needed. 
                       The design should bear this in mind 
@@ -108,13 +121,15 @@ function Beliefs() {
 
         <Belief
           classId="item14"
-          title="live in the now, build for the future."
+          title={`live in the now, \nbuild for the future.`}
           description="All functionality is created to be
                       relevant to the current situation, 
                       fully extendable and scalable for 
                       future iterations." />
       </BeliefsGrid>
     </BeliefsWrapper>
+    </div>
+    
   );
 }
 

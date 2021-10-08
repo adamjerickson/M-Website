@@ -34,7 +34,7 @@ const Title = styled.h4`
 const Description = styled.p`
     position: relative;
     text-align: left;
-    margin-top: 0;
+    margin-top: -7px;
     margin-bottom: 0;
     margin-left: .75em;
     margin-right: 0;

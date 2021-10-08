@@ -46,7 +46,8 @@ const Work03 = () => {
       <WorkDescription>
         <h3>DMSi WedgeStudio</h3>
         <h3 className="workYear">2020</h3>
-        <p>With DMSi moving their primary tool to the web and no existing product to date, it was clear a design system needed to begin. By creating a user interface pattern library in sketch the team is able to create rapid prototypes, and rapid iteration for screen and mod completion. The system was design from the very foundational principles of design, up to color, and all the way up to components. All components have been built with atomic theory - starting with the atoms and ending at the layouts. As a design system is a product serving a product, and will never be complete, this tool is under constant monitoring and updated anytime changes are made to the UI or code structure.</p>
+        <p>As DMSi is transitioning their ERP software to the web, we needed a tool for the scrum teams to create form pages quickly. In this project, I led the design sprint that made this application that would do just that. In addition, we created a wizard for those using it the first time and the capability to share the templates and comment on the build for approvals.</p>
+        <p>User testing proved the success of this model, and teams were excited at the possibility of utilizing this. Once refined through design, the assigned PM created an epic and a scrum team to work on this. </p>
       </WorkDescription>
     </WorkMain>
   )

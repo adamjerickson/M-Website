@@ -88,7 +88,11 @@ const Greeting = () => {
         <Headline>let's get <span>familiar.</span> </Headline>
         
         <LittleBox>
-          <p>this is a small paragraph that will say something cute</p>
+          <p>
+            director of product<br/>
+            professor of design<br/>
+            lover of candy<br/>
+          </p>
         </LittleBox>
 
         <MollieImage>
@@ -96,7 +100,7 @@ const Greeting = () => {
         </MollieImage>
 
         <AboutMollie>
-          <p>hello. i am a product designer happily
+          <p>hello. i am mollie cox. i am a product design director happily
             creating experiences for over 15 years. i
             want to live in a world where collaboration
             is never an after thought, products and
