@@ -1,0 +1,47 @@
+@media screen and (min-width: 1440px) {
+  .Work {
+    height: 1650px;
+  }
+  
+  .Work img {
+    position: absolute;
+  }
+  
+  .Work img.img01 {
+    max-width: 351px;
+    min-width: 351px;
+    left: 153px;
+    top: -47px;
+  }
+
+  .Work img.img02 {
+    max-width: 339px;
+    min-width: 339px;
+    top: 177px;
+    left: 0;
+  }
+ 
+  .Work img.img03 {
+    max-width: 296px;
+    min-width: 296px;
+    top: 363px;
+    left: 369px;
+  }
+ 
+  .Work img.img04 {
+    max-width: 385px;
+    min-width: 385px;
+    top: 616px;
+    left: 606px;
+    z-index: 4;
+  }
+
+  .Work img.img05 {
+    max-width: 343px;
+    min-width: 343px;
+    top: 944px;
+    left: 421px;
+    z-index: 5;
+  }
+ 
+}

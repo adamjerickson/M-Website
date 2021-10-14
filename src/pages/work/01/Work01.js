@@ -3,14 +3,14 @@ import WorkMain from '../WorkMain';
 import WorkCenter from '../WorkCenter';
 import WorkTitle from '../WorkTitle';
 import WorkDescription from '../WorkDescription';
+import './Work01.css';
 import img01 from './images/01.jpg';
+import img02 from './images/02.jpg';
 import img03 from './images/03.jpg';
 import img04 from './images/04.jpg';
 import img05 from './images/05.jpg';
 import img06 from './images/06.jpg';
 import img07 from './images/07.jpg';
-import img08 from './images/08.jpg';
-import img09 from './images/09.jpg';
 
 
 const Work01Line2 = styled.div`
@@ -21,6 +21,8 @@ const Work01Line3 = styled.div`
   line-height:67.1px;
 `
 const WorkImage = styled.div`
+  position: relative;
+
   img {
     min-width: 100%;
     max-width: 100%;
@@ -33,18 +35,16 @@ const Work01 = () => {
     <WorkMain>
       <WorkCenter>
         <WorkTitle>
-          <span>a new project</span> <Work01Line2 className="larger">management</Work01Line2> <Work01Line3>tool</Work01Line3>
+          <span>a new project</span> <Work01Line2 className="larger">management</Work01Line2> <Work01Line3>tool.</Work01Line3>
         </WorkTitle>
-        <WorkImage>
-          <img alt="early project notes" src={img01} />
-          <img alt="user persona" src={img03} />
-          <img alt="journey map" src={img04} />
-          <img alt="design sketch (hand drawn)" src={img05} />
-          <img alt="design sprint whiteboards" src={img06} />
-          <img alt="prototype thumbnails" src={img07} />
-          <img alt="prototype screens" src={img08} />
-          <img alt="prototype screenshot" src={img09} />
-
+        <WorkImage className="Work">
+          <img className="img01" alt="early project notes" src={img01} />
+          <img className="img02" alt="design sketch (hand drawn)" src={img02} />
+          <img className="img03" alt="user persona" src={img03} />
+          <img className="img04" alt="journey map" src={img04} />
+          <img className="img05" alt="prototype thumbnail" src={img05} />
+          <img className="img06" alt="design sprint whiteboards" src={img06} />
+          <img className="img07" alt="prototype screens" src={img07} />
         </WorkImage>
       </WorkCenter>
       <WorkDescription>

@@ -3,6 +3,7 @@ import WorkMain from '../WorkMain';
 import WorkCenter from '../WorkCenter';
 import WorkTitle from '../WorkTitle';
 import WorkDescription from '../WorkDescription';
+import './Work04.css';
 import img01 from './images/01.jpg';
 import img02 from './images/02.jpg';
 import img03 from './images/03.jpg';
@@ -13,6 +14,8 @@ const Work04Line2 = styled.div`
   margin-left: 94px;
 `
 const WorkImage = styled.div`
+  position: relative;
+
   img {
     min-width: 100%;
     max-width: 100%;
@@ -27,12 +30,12 @@ const Work04 = () => {
         <WorkTitle>
           <span>da bears &amp;</span> <Work04Line2 className="larger lower">da bulls.</Work04Line2>
         </WorkTitle>
-        <WorkImage>
-          <img alt="Best Option Trading logo" src={img01} />
-          <img alt="Best Option Trading home page" src={img02} />
-          <img alt="Orca.Trade home page" src={img03} />
-          <img alt="Team page" src={img04} />
-          <img alt="Testimonials page" src={img05} />
+        <WorkImage className="Work">
+          <img className="img01" alt="Best Option Trading logo" src={img01} />
+          <img className="img02" alt="Best Option Trading home page" src={img02} />
+          <img className="img03" alt="Orca.Trade home page" src={img03} />
+          <img className="img04" alt="Team page" src={img04} />
+          <img className="img05" alt="Testimonials page" src={img05} />
         </WorkImage>
       </WorkCenter>
       <WorkDescription>

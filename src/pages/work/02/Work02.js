@@ -3,6 +3,7 @@ import WorkMain from '../WorkMain';
 import WorkCenter from '../WorkCenter';
 import WorkTitle from '../WorkTitle';
 import WorkDescription from '../WorkDescription';
+import './Work02.css';
 import img01 from './images/01.jpg';
 import img02 from './images/02.jpg';
 import img03 from './images/03.jpg';
@@ -15,6 +16,8 @@ const Work02Line2 = styled.div`
   margin-left: 16px;
 `
 const WorkImage = styled.div`
+  position: relative;
+  
   img {
     min-width: 100%;
     max-width: 100%;
@@ -24,19 +27,19 @@ const WorkImage = styled.div`
 
 const Work02 = () => {
   return (
-    <WorkMain>
+    <WorkMain className="Work">
       <WorkCenter>
         <WorkTitle>
           <span>design systems</span> <Work02Line2 className="larger">oh my.</Work02Line2>
         </WorkTitle>
         <WorkImage>
-          <img alt="early project notes" src={img01} />
-          <img alt="early project notes" src={img02} />
-          <img alt="user persona" src={img03} />
-          <img alt="journey map" src={img04} />
-          <img alt="design sketch (hand drawn)" src={img05} />
-          <img alt="design sprint whiteboards" src={img06} />
-          <img alt="prototype thumbnails" src={img07} />
+          <img className="img01" alt="early project notes" src={img01} />
+          <img className="img02" alt="early project notes" src={img02} />
+          <img className="img03" alt="user persona" src={img03} />
+          <img className="img04" alt="journey map" src={img04} />
+          <img className="img05" alt="design sketch (hand drawn)" src={img05} />
+          <img className="img06" alt="design sprint whiteboards" src={img06} />
+          <img className="img07" alt="prototype thumbnails" src={img07} />
         </WorkImage>
       </WorkCenter>
       <WorkDescription>

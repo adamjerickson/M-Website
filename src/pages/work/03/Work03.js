@@ -3,6 +3,7 @@ import WorkMain from '../WorkMain';
 import WorkCenter from '../WorkCenter';
 import WorkTitle from '../WorkTitle';
 import WorkDescription from '../WorkDescription';
+import './Work03.css';
 import img01 from './images/01.jpg';
 import img02 from './images/02.jpg';
 import img03 from './images/03.jpg';
@@ -17,6 +18,8 @@ const Work03Line2 = styled.div`
   margin-left: 94px;
 `
 const WorkImage = styled.div`
+  position: relative;
+  
   img {
     min-width: 100%;
     max-width: 100%;
@@ -26,21 +29,21 @@ const WorkImage = styled.div`
 
 const Work03 = () => {
   return (
-    <WorkMain>
+    <WorkMain className="Work">
       <WorkCenter>
         <WorkTitle>
           <span>ui builders</span> <Work03Line2 className="larger lower">galore</Work03Line2>
         </WorkTitle>
         <WorkImage>
-          <img alt="WedgeStudio login page" src={img01} />
-          <img alt="Module selector" src={img02} />
-          <img alt="Template chooser" src={img03} />
-          <img alt="Dashboard" src={img04} />
-          <img alt="UI builder start page" src={img05} />
-          <img alt="UI builder with comments" src={img06} />
-          <img alt="UI builder share modal" src={img07} />
-          <img alt="UI builder with in process UI" src={img08} />
-          <img alt="UI builder with comments open" src={img09} />
+          <img className="img01" alt="WedgeStudio login page" src={img01} />
+          <img className="img02" alt="Module selector" src={img02} />
+          <img className="img03" alt="Template chooser" src={img03} />
+          <img className="img04" alt="Dashboard" src={img04} />
+          <img className="img05" alt="UI builder start page" src={img05} />
+          <img className="img06" alt="UI builder with comments" src={img06} />
+          <img className="img07" alt="UI builder share modal" src={img07} />
+          <img className="img08"alt="UI builder with in process UI" src={img08} />
+          <img className="img09"alt="UI builder with comments open" src={img09} />
         </WorkImage>
       </WorkCenter>
       <WorkDescription>

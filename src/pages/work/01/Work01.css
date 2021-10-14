@@ -1,0 +1,62 @@
+@media screen and (min-width: 1440px) {
+  .Work {
+    height: 1450px;
+  }
+  
+  .Work img {
+    position: absolute;
+  }
+  
+  .Work img.img01 {
+    max-width: 317px;
+    min-width: 317px;
+    left: 100px;
+  }
+
+  .Work img.img02 {
+    max-width: 282px;
+    min-width: 282px;
+    top: 84px;
+    left: 438px;
+  }
+
+  .Work img.img03 {
+    max-width: 311px;
+    min-width: 311px;
+    top: 172px;
+    left: 176px;
+    z-index: 1;
+  }
+
+  .Work img.img04 {
+    max-width: 346px;
+    min-width: 346px;
+    top: 356px;
+    left: 21px;
+    z-index: 1;
+  }
+
+  .Work img.img05 {
+    max-width: 314px;
+    min-width: 314px;
+    top: 427px;
+    left: 392px;
+    z-index: 2;
+  }
+
+  .Work img.img06 {
+    max-width: 530px;
+    min-width: 530px;
+    top: 603px;
+    left: -92px;
+    
+  }
+
+  .Work img.img07 {
+    max-width: 420px;
+    min-width: 420px;
+    top: 877px;
+    left: 212px;
+    z-index: 1;
+  }
+}
