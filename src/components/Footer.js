@@ -26,19 +26,19 @@ function Footer() {
   return (
     /* Social Icons */
     <FooterWrapper>
-      <a href="https://www.instagram.com/molliecox/?hl=en">
+      <a href="https://twitter.com/molliecox">
         <img src={twitter} alt="twitter" />
       </a>
       <a href="https://www.instagram.com/molliecox/?hl=en">
         <img src={instagram} alt="instagram" />
       </a>
-      <a href="https://www.instagram.com/molliecox/?hl=en">
+      <a href="http://Linkedin.com/in/molliecox">
         <img src={linkedin} alt="linkdin" />
       </a>
-      <a href="https://www.instagram.com/molliecox/?hl=en">
+      <a href="https://www.facebook.com/mollie.cox1">
         <img src={facebook} alt="facebook" />
       </a>
-      <a href="https://www.instagram.com/molliecox/?hl=en">
+      <a href="https://www.behance.net/molliecox">
         <img src={behance} alt="behancebox" />
       </a>
     </FooterWrapper>
