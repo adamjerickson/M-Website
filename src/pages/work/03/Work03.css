@@ -1,25 +1,25 @@
 @media screen and (min-width: 1440px) {
-  .Work {
+  .Work03 {
     height: 1450px;
   }
   
-  .Work img {
+  .Work03 img {
     position: absolute;
   }
   
-  .Work img.img01 {
+  .Work03 img.img01 {
     max-width: 429px;
     min-width: 429px;
   }
 
-  .Work img.img02 {
+  .Work03 img.img02 {
     max-width: 461px;
     min-width: 461px;
     top: 177px;
     left: 244px;
   }
 
-  .Work img.img03 {
+  .Work03 img.img03 {
     max-width: 373px;
     min-width: 373px;
     top: 374px;
@@ -27,7 +27,7 @@
     z-index: 4;
   }
 
-  .Work img.img04 {
+  .Work03 img.img04 {
     max-width: 326px;
     min-width: 326px;
     top: 448px;
@@ -35,7 +35,7 @@
     z-index: 1;
   }
  
-  .Work img.img05 {
+  .Work03 img.img05 {
     max-width: 369px;
     min-width: 369px;
     top: 629px;
@@ -43,7 +43,7 @@
     z-index: -1;
   }
  
-  .Work img.img06 {
+  .Work03 img.img06 {
     max-width: 413px;
     min-width: 413px;
     top: 658px;
@@ -51,7 +51,7 @@
     
   }
 
-  .Work img.img07 {
+  .Work03 img.img07 {
     max-width: 309px;
     min-width: 309px;
     top: 931px;
@@ -59,7 +59,7 @@
     z-index: 3;
   }
 
-  .Work img.img08 {
+  .Work03 img.img08 {
     max-width: 333px;
     min-width: 333px;
     top: 875px;
@@ -67,7 +67,7 @@
     z-index: 1;
   }
 
-  .Work img.img09 {
+  .Work03 img.img09 {
     max-width: 366px;
     min-width: 366px;
     top: 963px;

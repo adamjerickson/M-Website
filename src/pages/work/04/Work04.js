@@ -30,7 +30,7 @@ const Work04 = () => {
         <WorkTitle>
           <span>da bears &amp;</span> <Work04Line2 className="larger lower">da bulls.</Work04Line2>
         </WorkTitle>
-        <WorkImage className="Work">
+        <WorkImage className="Work04">
           <img className="img01" alt="Best Option Trading logo" src={img01} />
           <img className="img02" alt="Best Option Trading home page" src={img02} />
           <img className="img03" alt="Orca.Trade home page" src={img03} />

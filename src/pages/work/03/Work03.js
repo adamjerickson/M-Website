@@ -19,7 +19,7 @@ const Work03Line2 = styled.div`
 `
 const WorkImage = styled.div`
   position: relative;
-  
+
   img {
     min-width: 100%;
     max-width: 100%;
@@ -29,7 +29,7 @@ const WorkImage = styled.div`
 
 const Work03 = () => {
   return (
-    <WorkMain className="Work">
+    <WorkMain className="Work03">
       <WorkCenter>
         <WorkTitle>
           <span>ui builders</span> <Work03Line2 className="larger lower">galore</Work03Line2>

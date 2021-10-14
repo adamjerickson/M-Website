@@ -27,7 +27,7 @@ const WorkImage = styled.div`
 
 const Work02 = () => {
   return (
-    <WorkMain className="Work">
+    <WorkMain className="Work02">
       <WorkCenter>
         <WorkTitle>
           <span>design systems</span> <Work02Line2 className="larger">oh my.</Work02Line2>

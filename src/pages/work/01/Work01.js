@@ -12,7 +12,6 @@ import img05 from './images/05.jpg';
 import img06 from './images/06.jpg';
 import img07 from './images/07.jpg';
 
-
 const Work01Line2 = styled.div`
   margin-left: 22px;
 `
@@ -37,7 +36,7 @@ const Work01 = () => {
         <WorkTitle>
           <span>a new project</span> <Work01Line2 className="larger">management</Work01Line2> <Work01Line3>tool.</Work01Line3>
         </WorkTitle>
-        <WorkImage className="Work">
+        <WorkImage className="Work01">
           <img className="img01" alt="early project notes" src={img01} />
           <img className="img02" alt="design sketch (hand drawn)" src={img02} />
           <img className="img03" alt="user persona" src={img03} />
