@@ -1,0 +1,44 @@
+@media screen and (min-width: 1440px) {
+  .Work05 {
+    height: 1650px;
+  }
+  
+  .Work05 img {
+    position: absolute;
+  }
+  
+  .Work05 img.img01 {
+    max-width: 281px;
+    min-width: 281px;
+  }
+
+  .Work05 img.img02 {
+    max-width: 366px;
+    min-width: 366px;
+    left: 300px;
+  }
+ 
+  .Work05 img.img03 {
+    max-width: 372px;
+    min-width: 372px;
+    top: 578px;
+    left: 0px;
+  }
+ 
+  .Work05 img.img04 {
+    max-width: 385px;
+    min-width: 385px;
+    top: 673px;
+    left: 395px;
+    z-index: -1;
+  }
+
+  .Work05 img.img05 {
+    max-width: 252px;
+    min-width: 252px;
+    top: 727px;
+    left: 737px;
+    z-index: 5;
+  }
+ 
+}

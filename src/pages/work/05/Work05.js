@@ -3,6 +3,7 @@ import WorkMain from '../WorkMain';
 import WorkCenter from '../WorkCenter';
 import WorkTitle from '../WorkTitle';
 import WorkDescription from '../WorkDescription';
+import './Work05.css';
 import img01 from './images/01.jpg';
 import img02 from './images/02.jpg';
 import img03 from './images/03.jpg';
@@ -13,6 +14,8 @@ const Work05Line2 = styled.div`
   margin-left: 72px;
 `
 const WorkImage = styled.div`
+  position: relative;
+
   img {
     min-width: 100%;
     max-width: 100%;
@@ -27,12 +30,12 @@ const Work05 = () => {
         <WorkTitle>
           <span>the law gets</span> <Work05Line2 className="larger lower">its own site.</Work05Line2>
         </WorkTitle>
-        <WorkImage>
-          <img alt="Build Your Character page" src={img01} />
-          <img alt="Why Choose Nebraska Law page" src={img02} />
-          <img alt="We've Opened Doors; Your Move page" src={img03} />
-          <img alt="Make History With Your Future page" src={img04} />
-          <img alt="Calendar and Activites page" src={img05} />
+        <WorkImage className="Work05">
+          <img className="img01" alt="Build Your Character page" src={img01} />
+          <img className="img02" alt="Why Choose Nebraska Law page" src={img02} />
+          <img className="img03" alt="We've Opened Doors; Your Move page" src={img03} />
+          <img className="img04" alt="Make History With Your Future page" src={img04} />
+          <img className="img05" alt="Calendar and Activites page" src={img05} />
         </WorkImage>
       </WorkCenter>
       <WorkDescription>
