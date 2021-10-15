@@ -34,9 +34,7 @@ const NavMain = styled.div`
   grid-column: 2;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding-left: 18%;
-  padding-right: 18%;
+  justify-content: space-between;
 
   li {
     display: block;
@@ -76,9 +74,8 @@ function Header() {
       <NavMain>
         <li><NavLink activeClassName="selectedNav" to="/" exact>home</NavLink></li>
         <li><NavLink activeClassName="selectedNav" to="/work/01" >work</NavLink></li>
+        <li><NavLink activeClassName="selectedNav" to="/speaking" >speaking</NavLink></li>
         <li><NavLink activeClassName="selectedNav" to="/resume" >resume</NavLink></li>
-        {/* <li><a href="speaking.html">speaking</a></li>
-        <li><a href="blog.html">blog</a></li>  */}
       </NavMain>
 
       <NavContact>
