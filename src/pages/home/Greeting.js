@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import mollie from '../../images/mollie.jpg';
+import mollie from '../../images/molliewebsite.jpg';
 
 const GreetingWrapper = styled.div`
   width: 100vw;
