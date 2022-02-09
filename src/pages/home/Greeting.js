@@ -95,7 +95,7 @@ const Greeting = () => {
         
         <LittleBox>
           <p>
-            director of product<br/>
+            designer of product<br/>
             professor of design<br/>
             lover of candy<br/>
           </p>
